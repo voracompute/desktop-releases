@@ -8,13 +8,13 @@ Official desktop installers for **Vora Compute** (`Code` & `Work` agent workspac
 curl -fsSL https://raw.githubusercontent.com/voracompute/desktop-releases/main/install.sh | sh
 ```
 
-## Direct downloads (v0.1.1)
+## Direct downloads (v0.1.2)
 
-- **Apple Silicon (M1 / M2 / M3 / M4 / M5 / M6):** [Vora Compute-0.1.1-arm64.dmg](https://github.com/voracompute/desktop-releases/releases/download/v0.1.1/Vora.Compute-0.1.1-arm64.dmg)
-- **Intel Mac (x64):** [Vora Compute-0.1.1.dmg](https://github.com/voracompute/desktop-releases/releases/download/v0.1.1/Vora.Compute-0.1.1.dmg)
+- **Apple Silicon (M1 / M2 / M3 / M4 / M5 / M6):** [Vora Compute-0.1.2-arm64.dmg](https://github.com/voracompute/desktop-releases/releases/download/v0.1.2/Vora.Compute-0.1.2-arm64.dmg)
+- **Intel Mac (x64):** [Vora Compute-0.1.2.dmg](https://github.com/voracompute/desktop-releases/releases/download/v0.1.2/Vora.Compute-0.1.2.dmg)
 - **All releases & SHA-256 checksums:** [Releases](https://github.com/voracompute/desktop-releases/releases)
 
-> **Note on browser downloads (before Apple Notarization):** If you download the `.dmg` in a browser and macOS says it cannot verify the developer, open **System Settings → Privacy & Security → Open Anyway**, or run `xattr -dr com.apple.quarantine "/Applications/Vora Compute.app"`.
+Signed with **`Developer ID Application: Vora Compute ApS (238587U2Y9)`** and notarized by Apple (`Hardened Runtime` + stapled ticket).
 
 ## Documentation
 

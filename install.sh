@@ -2,7 +2,7 @@
 set -eu
 
 REPO="voracompute/desktop-releases"
-VERSION="v0.1.1"
+VERSION="v0.1.2"
 ARCH="$(uname -m)"
 
 if [ "$(uname -s)" != "Darwin" ]; then
@@ -11,10 +11,10 @@ if [ "$(uname -s)" != "Darwin" ]; then
 fi
 
 if [ "$ARCH" = "arm64" ]; then
-  ASSET="Vora.Compute-0.1.1-arm64-mac.zip"
+  ASSET="Vora.Compute-0.1.2-arm64-mac.zip"
 else
   echo "For Intel Macs (x64), download the DMG at:"
-  echo "  https://github.com/${REPO}/releases/download/${VERSION}/Vora.Compute-0.1.1.dmg"
+  echo "  https://github.com/${REPO}/releases/download/${VERSION}/Vora.Compute-0.1.2.dmg"
   exit 0
 fi
 
@@ -39,6 +39,5 @@ ditto -x -k "${TMP_DIR}/${ASSET}" "${TMP_DIR}/out"
 pkill -f "/Applications/Vora Compute.app" 2>/dev/null || true
 rm -rf "/Applications/Vora Compute.app"
 mv "${TMP_DIR}/out/Vora Compute.app" "/Applications/Vora Compute.app"
-xattr -dr com.apple.quarantine "/Applications/Vora Compute.app" 2>/dev/null || true
 
 echo "Installed /Applications/Vora Compute.app (${VERSION})."
