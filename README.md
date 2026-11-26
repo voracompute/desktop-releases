@@ -8,10 +8,10 @@ Official desktop installers for **Vora Compute** (`Code` & `Work` agent workspac
 curl -fsSL https://raw.githubusercontent.com/voracompute/desktop-releases/main/install.sh | sh
 ```
 
-## Direct downloads (v0.1.2)
+## Direct downloads (v0.1.3)
 
-- **Apple Silicon (M1 / M2 / M3 / M4 / M5 / M6):** [Vora Compute-0.1.2-arm64.dmg](https://github.com/voracompute/desktop-releases/releases/download/v0.1.2/Vora.Compute-0.1.2-arm64.dmg)
-- **Intel Mac (x64):** [Vora Compute-0.1.2.dmg](https://github.com/voracompute/desktop-releases/releases/download/v0.1.2/Vora.Compute-0.1.2.dmg)
+- **Apple Silicon (M1 / M2 / M3 / M4 / M5 / M6):** [Vora Compute-0.1.3-arm64.dmg](https://github.com/voracompute/desktop-releases/releases/download/v0.1.3/Vora.Compute-0.1.3-arm64.dmg)
+- **Intel Mac (x64):** [Vora Compute-0.1.3.dmg](https://github.com/voracompute/desktop-releases/releases/download/v0.1.3/Vora.Compute-0.1.3.dmg)
 - **All releases & SHA-256 checksums:** [Releases](https://github.com/voracompute/desktop-releases/releases)
 
 Signed with **`Developer ID Application: Vora Compute ApS (238587U2Y9)`** and notarized by Apple (`Hardened Runtime` + stapled ticket).

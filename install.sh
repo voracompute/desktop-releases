@@ -2,7 +2,7 @@
 set -eu
 
 REPO="voracompute/desktop-releases"
-VERSION="v0.1.2"
+VERSION="v0.1.3"
 ARCH="$(uname -m)"
 
 if [ "$(uname -s)" != "Darwin" ]; then
@@ -11,10 +11,10 @@ if [ "$(uname -s)" != "Darwin" ]; then
 fi
 
 if [ "$ARCH" = "arm64" ]; then
-  ASSET="Vora.Compute-0.1.2-arm64-mac.zip"
+  ASSET="Vora.Compute-0.1.3-arm64-mac.zip"
 else
   echo "For Intel Macs (x64), download the DMG at:"
-  echo "  https://github.com/${REPO}/releases/download/${VERSION}/Vora.Compute-0.1.2.dmg"
+  echo "  https://github.com/${REPO}/releases/download/${VERSION}/Vora.Compute-0.1.3.dmg"
   exit 0
 fi
 
